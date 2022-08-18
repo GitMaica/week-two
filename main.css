@@ -23,5 +23,11 @@ img{
     opacity: 0.9;
     width: 300;
     height: 300;
+    border-radius: 150px;
+    /*float: left; - moves image to the left of the text*/
+    /*margin-right: 10px; - sets a margin to the right of the image*/
 }
-
+.firstpara {
+    font-weight: bolder;
+    
+}
