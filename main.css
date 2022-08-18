@@ -40,3 +40,39 @@ em {
     height: 200px;
 
 }
+/* id and class can be combined on a html. eg. <h2 id="house" class="car"</h2> */
+/* to use it in css: 
+#house.car {
+    color: blue;
+    font-size: 200%;
+}*/
+h1 p {  /*Selecting a tag inside of a tag. body being the parent, p being the child */
+    color: red;
+}
+/* to combine two class selector:
+.car, .van {
+    color: red;
+ } */
+
+ /* to select everything on a html:
+ * {
+    font-family: Arial;
+} */
+/* css will read the id selector as the most important then the class selector then tags */
+h1 {
+    color: rgb(255, 0, 0); /* Another way to define color */
+}
+h1 {
+    color: rgba(255, 0, 0, 0.3); /* rgba - the letter a(alpha) represents for how transparent the text is */
+}
+/* h1 {
+    color: hsl(0, 100%, 0) using hue, saturation, light
+}*/
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid black;
+    background-color: rgba(0, 0, 255, 0.3);
+}
