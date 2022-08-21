@@ -4,10 +4,8 @@ This is a comment
 
 /*Add rule to change the color of the paragraph*/
 
-p{
-    color:#E64848;
-    /*colorhunt.com*/
-}
+/*colorhunt.com*/
+
 
 ol{
     color: aqua;
@@ -28,13 +26,11 @@ img{
     margin-right: 25px; /*- sets a margin to the right of the image*/
     margin-bottom: 25px;
 }
-.firstpara {
-    font-weight: bolder;
 
-}
 em {
     color: green; /*changing the empasis to red*/
 }
+
 .newimage {
     width: 200px;
     height: 200px;
@@ -82,7 +78,7 @@ h1 {
     margin: 50px;
     border: 10px solid black;
     background-color: rgba(0, 0, 255, 0.3);
-	transition: 0.5s;
+	transition: 0.2s;
 }
 
 .box:hover {
@@ -159,3 +155,50 @@ h1 {
 .but3:active {
 	border: 0.2px solid white;
 }
+
+.firstpara {
+        font-family: Arial;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        width: 500px;
+        line-height: 26px;
+}
+
+.secondpara {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    font-size: 18px;
+
+}
+
+.thirdpara {
+    font-family: Arial;
+
+}
+
+.fourthpara {
+    font-family: verdana;
+    font-size: 16px;
+    color: teal;
+}
+
+.fifthpara {
+    background-color: rgb(227, 65, 64);
+    color: white;
+    padding: 15px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.fifthspan {
+    color: yellow;
+    margin-left: 10px;
+}
+
+.fifthspan:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
